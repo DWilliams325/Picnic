@@ -1,0 +1,92 @@
+body {
+  background: linear-gradient(135deg, #ffe0f0, #fffbe6);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background: white;
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 90%;
+  text-align: center;
+}
+
+h1 {
+  color: #ff69b4;
+  margin-bottom: 1rem;
+}
+
+.intro {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+.event-details ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.event-details li {
+  background: #fff3cd;
+  margin: 0.5rem 0;
+  padding: 0.75rem;
+  border-radius: 8px;
+  color: #8a6d3b;
+  font-weight: 500;
+}
+
+button {
+  background-color: #fcd34d;
+  color: #333;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #fbbf24;
+}
+
+#dress-code {
+  margin-top: 1.5rem;
+  animation: fadeIn 0.5s ease-in-out;
+}
+#date-time {
+  margin-top: 1.5rem;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.hidden {
+  display: none;
+}
+
+footer {
+  margin-top: 2rem;
+  color: #888;
+  font-size: 0.9rem;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

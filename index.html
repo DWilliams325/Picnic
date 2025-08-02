@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Picnic Date Invite</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🌸 Picnic Date Invitation 🌼</h1>
+    <p class="intro">You’re invited to picnic </p>
+
+    <div class="event-details">
+      <h2>🌞 Plan:</h2>
+      <ul>
+        <li>Stop at Smoothie King</li>
+        <li>Pick up snacks and pack a basket</li>
+        <li>Relax at Memorial Park</li>
+        <li>Walk and learn to Rock Skip</li>
+        <li>Sweet treat</li>
+      </ul>
+    </div>
+
+    <div class="rsvp">
+      <p><strong>Do you accept?</strong></p>
+      <button onclick="showDressCode()">Yes! 💛</button>
+    </div>
+
+    <div id="dress-code" class="hidden">
+      <h3>🎀 Dress Code:</h3>
+      <p>Cute & Comfy – I'll be in a button-up and khaki shorts. Feel free to wear what makes you feel lovely!</p>
+    </div>
+
+    <div id="date-time" class="hidden">
+      <h3> Date/Time :</h3>
+      <p>Date Tuesday August 5th </p>
+      <p>Time 4:00pm </p>
+
+    </div>
+
+    <footer>
+      <p>💐 Looking forward to it – Damian</p>
+    </footer>
+  </div>
+
+  <script>
+    function showDressCode() {
+      document.getElementById('dress-code').classList.remove('hidden');
+      document.getElementById('date-time').classList.remove('hidden');
+    }
+  </script>
+</body>
+</html>
